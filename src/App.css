@@ -1,0 +1,123 @@
+* {margin:0%; padding:0%}
+.clearfix{
+  overflow:auto;
+}
+.label{
+  color:white;
+  background-position: center;
+  text-align: center;
+  margin:20%;
+  
+}
+
+.listitem{
+  color: white;
+}
+.listitem{
+  margin-right: 1%;
+}
+.center{
+  text-align: center;
+  
+}
+
+.label p{
+  font-size: 20px;
+}
+.label h1{
+  font-size: 50px;
+}
+.componentrednder{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom:5%;
+}
+
+.list li .App-link{
+  color:white;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.navigationbar{
+  margin-top: 0%;
+  text-align: center;
+  background-color: darkgrey;
+  height: auto;
+}
+.name{
+  float: left;
+  margin: 10px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+ .menus{
+   float: right;
+  margin-right: 10px;
+ }
+.menus ul{
+  list-style: none;
+  display: inline-block;
+}
+
+.menus ul li{
+  margin:10px;
+  display:inline-block;
+  text-decoration: none;
+  margin:10;
+  
+}
+.listitem{
+  text-decoration: none;
+}
+
+.footer p{
+  text-align: center;
+  font-size: 17px;
+  color:white;
+}
+
+.footer .email{
+  margin-left: 1%;
+  float: left;
+}
+.number{
+  margin-right: 1%;
+  float: right;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
