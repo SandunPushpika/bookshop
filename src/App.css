@@ -13,9 +13,7 @@
 .listitem{
   color: white;
 }
-.listitem{
-  margin-right: 1%;
-}
+
 .center{
   text-align: center;
   
@@ -69,9 +67,7 @@
 .menus ul li{
   margin:10px;
   display:inline-block;
-  text-decoration: none;
-  margin:10;
-  
+  text-decoration: none; 
 }
 .listitem{
   text-decoration: none;
